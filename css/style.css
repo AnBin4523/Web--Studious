@@ -200,35 +200,34 @@
 }
 
 /* Welcome */
-.welcome-title{
+.title-main{
     font-size: 40px;
     line-height: 50px;
     font-weight: 600;
     position: relative;
 }
 
-.welcome-title span{
+.title-main span{
     color: #ff6e65;
 }
 
-.welcome-title::before ,
-.welcome-title::after{
+.title-main::before ,
+.title-main::after{
     content: "";
     background: #707070;
     width: 60px;
     height: 2px;
     position: absolute;
     right: 0;
-    
     margin: 0 auto;
 }
 
-.welcome-title::before{
+.title-main::before{
     left: -20px;
     bottom: -8px;
 }
 
-.welcome-title::after{
+.title-main::after{
     left: 20px;
     bottom: -15px;
 }
