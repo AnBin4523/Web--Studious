@@ -259,6 +259,45 @@
     margin-bottom: 15px;
 }
 
+/* Service */
+.service-banner{
+    background-image: url(../images/bg3.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.service-info{
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.service-icon{
+    margin-right: 15px;
+}
+
+.service-icon i{
+    color: #0d369f;
+    background-color: rgb(13 54 159 / 9%);
+    font-size: 28px;
+    width: 65px;
+    height: 65px;
+    line-height: 65px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.service-text h5{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.service-text p{
+    margin-bottom: 0;
+}
+
 /* Back to top */
 .backtoTop{
     color: white;
