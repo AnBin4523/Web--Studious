@@ -285,6 +285,45 @@
         </div>
     </section>
 
+    <!-- Counter -->
+    <section class="counter py-sm-5 pt-sm-0 pt-5">
+        <div class="container py-md-5 py-4">
+            <div class="counter-heading text-center mx-auto mb-5 pb-sm-4">
+                <h3 class="title-main">
+                    Strength in 
+                    <span>Numbers</span>
+                </h3>
+                <p class="mt-4 pt-md-2">Similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+            </div>
+            <div class="counter-number row text-center justify-content-center">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="counter-item">
+                        <span class="number">6,300</span>
+                        <p class="counter-text">LEARNERS & COUNTING</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mt-sm-0 mt-4">
+                    <div class="counter-item">
+                        <span class="number">638</span>
+                        <p class="counter-text">TOTAL COURSES</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mt-lg-0 mt-4">
+                    <div class="counter-item">
+                        <span class="number">7,600</span>
+                        <p class="counter-text">SUCCESSFUL STUDENTS</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mt-lg-0 mt-4">
+                    <div class="counter-item border-light-0">
+                        <span class="number">36</span>
+                        <p class="counter-text">LANGUAGES</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Back to top -->
     <a href="#" class="backtoTop cd-top text-replace js-cd-top">
         <i class="fa-solid fa-turn-up"></i>
@@ -323,6 +362,11 @@
                 autoplay: true
             });
         });
+    </script>
+
+    <script src="./library/countUp/jquery.countup.min.js"></script>
+    <script>
+        $('.number').countUp();
     </script>
 
     <!-- Optional JavaScript -->

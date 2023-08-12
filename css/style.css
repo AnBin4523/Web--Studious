@@ -298,6 +298,20 @@
     margin-bottom: 0;
 }
 
+/* Counter */
+.counter-heading p{
+    margin-bottom: 0;
+}
+
+.counter-item .number{
+    font-size: 46px;
+    font-weight: 600;
+}
+
+.counter-item{
+    border-right: 1px solid #eee; 
+}
+
 /* Back to top */
 .backtoTop{
     color: white;
