@@ -152,6 +152,35 @@
     color: #ff6e65;
 }
 
+/* carousel */
+.carousel-indicators {
+    text-align: right;
+    float: right;
+    right: -40% !important;
+    left: inherit;
+
+}
+.carousel-caption {
+    left: -5%;
+}
+
+.carousel-caption h3 {
+    font-size: 50px;
+    line-height: 60px;
+    color: white;
+
+}
+.btn-style {
+    padding: 14px 30px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #060606;
+    border-radius: 4px;
+    background: #fff;
+    border: none;
+
+}
+
 /* Feature */
 .feature{
     position: relative;
